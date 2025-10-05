@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ready" />
+
+    <EditText
+        android:id="@+id/etBotToken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telegram Bot Token" />
+
+    <EditText
+        android:id="@+id/etChatId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chat ID" />
+
+    <CheckBox
+        android:id="@+id/cbWifiOnly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload only on Wi-Fi" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Service" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Service" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info: Service runs in background with a notification." />
+
+</LinearLayout>
